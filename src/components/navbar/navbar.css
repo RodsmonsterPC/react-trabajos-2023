@@ -1,0 +1,47 @@
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.logo-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 3rem;
+  color: hsl(0, 0%, 41%);
+  font-family: "Epilogue", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+img {
+  height: 1.5rem;
+  width: 4rem;
+}
+
+.btn-login {
+  border: none;
+  border-radius: 20px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 41%);
+  background-color: white;
+  padding-right: 2rem;
+}
+
+.btn-register {
+  border-color: hsl(0, 0%, 41%);
+  border-radius: 20px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 41%);
+  background-color: white;
+  padding: 0.5rem;
+  width: 6rem;
+}
